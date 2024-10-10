@@ -1,0 +1,174 @@
+
+.titulo{
+    font-family: 'Roboto', sans-serif; /* Usando a fonte Roboto */
+    font-size: 24px; /* Tamanho da fonte */
+    font-weight: bold; /* Peso da fonte (negrito) */
+    color: #ffffff; /* Cor do texto (branco) */
+    background-color: #f2f2f2; /* Cor de fundo (azul) */
+    text-align: center; /* Alinhamento do texto (centralizado) */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 20px; /* Margem inferior para espaçamento */
+}
+
+.subtitulo{
+    font-family: 'Roboto', sans-serif; /* Usando a fonte Roboto */
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Peso da fonte (negrito) */
+    color: #ff0000; /* Cor do texto (vermelho) */
+    background-color: #f8d7da; /* Cor de fundo (vermelho claro) */
+    text-align: center; /* Alinhamento do texto (centralizado) */
+    padding: 5px 10px; /* Espaçamento interno */
+    margin-bottom: 10px; /* Margem inferior para espaçamento */
+}
+
+.top{
+    display: flex; /* Define o container como um flex container */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente os itens */
+    background-color: #f0f0f0; /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 5px; /* Borda arredondada */
+    
+}
+.top img {
+    width: 200px;
+    margin-right: 20px;
+    padding:50px;
+}
+
+.titulo2{
+        
+
+        text-align: center;
+        background-color:bisque; /* Cor de fundo */
+        padding: 20px; /* Espaçamento interno */
+        border: 1px solid #ccc; /* Borda */
+        border-radius: 5px; /* Borda arredondada */
+        font-family: 'Great Vibes', cursive;
+}
+
+
+
+body{
+    background-color: azure;
+}
+
+p{
+    font-size: 16px; /* Tamanho da fonte */
+    font-family: Arial, sans-serif; /* Fonte */
+    color: #444; /* Cor do texto */
+    line-height: 1.5; /* Espaçamento entre linhas */
+    margin-bottom: 20px; /* Margem inferior */
+}
+
+.texto1{
+    text-align: center;
+    background-color:beige;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+ul {
+    list-style: none; /* Remove os marcadores padrão da lista */
+    padding: 0; /* Remove o preenchimento padrão */
+    margin: 0; /* Remove a margem padrão */
+}
+
+.lista a {
+    text-decoration: none; /* Remover sublinhado */
+    color: #333; /* Cor do texto dos links */
+}
+.lista a:hover, lista a:visited {
+    text-decoration: underline; /* Adicionar sublinhado ao passar o mouse */
+    color: orange; /* Altera a cor do texto ao passar o mouse sobre os links */
+}
+
+.lista{
+    width: 50%; 
+    margin: 0 auto;
+    margin-bottom: 200px; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista ul {
+    list-style-type: disc; /* Define que os bullets serão do tipo "bolinha" */
+    margin-left: 20px; /* Espaço à esquerda para o alinhamento adequado */
+    padding-left: 20px; /* Define um espaçamento interno para os bullets */
+}
+
+.lista li{
+    margin-bottom: 5px; /* Espaçamento entre os itens da lista (opcional) */
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imagem2{
+    display: block; /* Transforma o link em um elemento de bloco */
+    width: fit-content; /* Ajusta a largura do elemento para o conteúdo */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    border: 1px solid #ccc; /* Adiciona uma borda */
+    padding: 10px; /* Adiciona espaço interno */
+}
+.imagem2 img{
+    display: block; /* Transforma o link em um elemento de bloco */
+    width: fit-content; /* Ajusta a largura do elemento para o conteúdo */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    border: 1px solid #ccc; /* Adiciona uma borda */
+    padding: 10px; /* Adiciona espaço interno */
+}
+
+.imagem3{
+
+    width: 300px;
+    height: 300px;
+    margin-left: 30%;
+
+}
+
+.link{
+    
+    display: flex; /* Organiza os links em linha */
+    margin-bottom: 30px; /* Margem abaixo */
+    margin-left: 44%;
+}
+
+.link a {
+    text-decoration: none; /* Remove sublinhado */
+    color: #333; /* Cor do texto padrão */
+    margin-right: 50px; /* Adiciona espaçamento entre os links */
+    font-size: 30px; /* Tamanho do texto dos links */
+}
+
+.link a:hover {
+    color: orange; /* Cor do texto ao passar o mouse */
+    text-decoration: underline;
+}
+
+.link a:last-child {
+    margin-right: 0; /* Remove a margem direita do último link */
+}
+
+.link2 {
+    display: flex; /* Organiza os links em linha */
+    margin-bottom: 30px; /* Margem fixa de valor alto */
+    margin-left: 20%;
+}
+
+.link2 a {
+    text-decoration: none; /* Remove sublinhado */
+    color: #333; /* Cor do texto padrão */
+    margin-right: 50px; /* Adiciona espaçamento entre os links */
+    font-size: 30px; /* Tamanho do texto dos links */
+}
+
+.link2 a:hover {
+    color: orange; /* Cor do texto ao passar o mouse */
+    text-decoration: underline;
+}
+
+.link2 a:last-child {
+    margin-right: 0; /* Remove a margem direita do último link */
+}

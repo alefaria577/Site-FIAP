@@ -1,0 +1,54 @@
+.titulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #008000;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.subtitulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff0000;
+    background-color: #f8d7da;
+    text-align: center;
+    padding: 5px 10px;
+    margin-bottom: 50px;
+}
+
+.link {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center; /* Alinha os links ao centro */
+}
+
+.link a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+.link a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+.link a:last-child {
+    margin-right: 0;
+}
+
+.imagem-container {
+    display: flex;
+    justify-content: center; /* Centraliza as imagens */
+    margin-bottom: 30px; /* Espaçamento entre as imagens */
+}
+
+.imagem3 img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
